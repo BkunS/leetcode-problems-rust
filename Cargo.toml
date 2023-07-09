@@ -1,0 +1,24 @@
+[package]
+name = "leetcode_problems"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[workspace]
+members = [
+    "libs",
+    "1_two-sum",
+    "2_add-two-numbers",
+    "3_longest-substring-without-repeating-characters",
+    "4_median-of-two-sorted-arrays",
+    "5_longest-palindromic-substring",
+    "7_reverse-integer",
+    "8_string-to-integer-atoi",
+    "9_palindrome-number",
+    "11_container-with-most-water",
+    "12_int_to_roman",
+    "13_roman-to-integer"
+]
